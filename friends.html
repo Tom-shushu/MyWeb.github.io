@@ -18,7 +18,7 @@
     <!-- Header -->
     <div class="nav">
         <a class="logo" href="index.html"><img src="style/images/logo.png" width="40" title="红"></a>
-         <p style="color: white; font-size: xx-small;">网站已平稳运行：<span id="site_runtime" style="color:white; font-size: xx-small;"></span></p>
+           <span id="site_runtime" style="color:white; font-size: xx-small;"></span>
         <a class="logo pull-right sobtn"><span class="glyphicon glyphicon-search" style="color: #B4B4B4;"></span></a>
     </div>
     <div class="container">
@@ -105,13 +105,12 @@
     </div>
     <div class="to-top">↑</div>
     <script src="style/js/GeeYo.js"></script>
-    	    <!--
+    <!--
     	作者：15249239025@163.com
     	时间：2019-04-18
     	描述：时间
     -->
-    
-    <script type="text/javascript">
+<script type="text/javascript">
     function show_site_runtime(){
 	window.setTimeout("show_site_runtime()",1000); // 每秒运行一次函数
 	X=new Date("04/10/2019 00:00:00"); //在这里修改你的建站时间
@@ -124,9 +123,9 @@
 	H=Math.floor(h); // 计算剩余不足一天的小时数并向下取整
 	m=(h-H)*60;
 	M=Math.floor(m); // 计算剩余不足一小时的分钟数并向下取整
-	s=(m-M)*60
+	s=(m-M)*60;
 	S=Math.floor(s); // 计算剩余不足一分钟的秒数并向下取整
-	site_runtime.innerHTML= Y+D + " 天 " + H + " 小时 " + M + " 分 " + S + " 秒 "
+	site_runtime.innerHTML="现在是："+ Y+ "<br>" +"网站已平稳运行："+D + " 天 " + H + " 小时 " + M + " 分 " + S + " 秒 ";
     }
 	show_site_runtime();
 </script>
