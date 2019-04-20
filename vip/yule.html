@@ -8,6 +8,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="stylesheet" href="../css/mui.css">
 <link rel="stylesheet" type="text/css" href="css/app.css" />
+<style type="text/css"> *{padding: 0; margin: 0;} body,html{height:100%;} body{background-image: url("yulebotm/beijing.jpg");} #box{width: 280px; height: 400px; position: fixed; left: 0; right: 0; top:0; bottom: 0; margin: auto; transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg); animation: go 45s linear infinite; } #box img{width: 280px; height: 400px; position: absolute; left: 0; top: 0; } #box img:nth-child(1){ transform: rotateY(0deg) translateZ(650px);} #box img:nth-child(2){ transform: rotateY(36deg) translateZ(650px);} #box img:nth-child(3){ transform: rotateY(72deg) translateZ(650px);} #box img:nth-child(4){ transform: rotateY(108deg) translateZ(650px);} #box img:nth-child(5){ transform: rotateY(144deg) translateZ(650px);} #box img:nth-child(6){ transform: rotateY(180deg) translateZ(650px);} #box img:nth-child(7){ transform: rotateY(216deg) translateZ(650px);} #box img:nth-child(8){ transform: rotateY(252deg) translateZ(650px);} #box img:nth-child(9){ transform: rotateY(288deg) translateZ(650px);} #box img:nth-child(10){ transform: rotateY(324deg) translateZ(650px);} @keyframes go { 0%{transform: rotateX(0deg) rotateY(0deg);} 25%{transform: rotateX(20deg) rotateY(180deg);} 50%{transform: rotateX(0deg) rotateY(360deg);} 75%{transform: rotateX(-20deg) rotateY(540deg);} 100%{transform: rotateX(0deg) rotateY(720deg);} } </style>
+
 </head>
 <body >
 
@@ -36,26 +38,32 @@ margin-top: 50px;
 <a class="mui-control-item" href="#item3mobile">
 购物网站
 </a>
+<a class="mui-control-item" href="#item4mobile">
+音乐
+</a>
 </div>
 <div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
 <div class="mui-slider-group">
 <div id="item1mobile" class="mui-slider-item mui-control-content mui-active"style="background-image:url(2/594a54c16cff62d64afdad29cb5e4afd.jpg)">
 <div id="scroll1" class="mui-scroll-wrapper">
 <div class="mui-scroll">
-<ul class="mui-table-view" style="background-color:rgba(0,50,255,0.4);">
+<ul class="mui-table-view" style="background-color:rgba(0,0,100,0.3); font-style: initial;">
     <li class="mui-table-view-cell mui-media">
         <a href="http://v.qq.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/qqlogo.png">          
+            <img class="mui-media-object mui-pull-left" src="./2/qqlogo.png">  
+            <p style="font-size: large;">腾讯视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.iqiyi.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/aqylogo.png">         
+            <img class="mui-media-object mui-pull-left" src="./2/aqylogo.png"> 
+            <p style="font-size: large;">爱奇艺视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.youku.com/">
             <img class="mui-media-object mui-pull-left" src="./2/youkulogo.png">
+            <p style="font-size: large;">优酷视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
@@ -63,34 +71,40 @@ margin-top: 50px;
     <!---------->
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.le.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/letvlogo.png">          
+            <img class="mui-media-object mui-pull-left" src="./2/letvlogo.png"> 
+            <p style="font-size: large;">乐视TV视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.tudou.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/tudoulogo.png">         
+            <img class="mui-media-object mui-pull-left" src="./2/tudoulogo.png">
+            <p style="font-size: large;">土豆视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://tv.sohu.com/">
             <img class="mui-media-object mui-pull-left" src="./2/sohulogo.png">
+            <p style="font-size: large;">搜狐视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
     <!---------->
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.56.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/56logo.png">          
+            <img class="mui-media-object mui-pull-left" src="./2/56logo.png">
+            <p style="font-size: large;">56视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.ku6.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/ku6logo.png">         
+            <img class="mui-media-object mui-pull-left" src="./2/ku6logo.png"> 
+            <p style="font-size: large;">酷6视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.wasu.cn//">
             <img class="mui-media-object mui-pull-left" src="./2/wasulogo.png">
+            <p style="font-size: large;">WASU华数视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
@@ -98,17 +112,20 @@ margin-top: 50px;
     <!---------->
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.yinyuetai.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/yinyuetailogo.png">          
+            <img class="mui-media-object mui-pull-left" src="./2/yinyuetailogo.png"> 
+            <p style="font-size: large;">音悦台MV<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.mgtv.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/hunantvlogo.png">         
+            <img class="mui-media-object mui-pull-left" src="./2/hunantvlogo.png"> 
+            <p style="font-size: large;">芒果TV视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://video.sina.com.cn/">
             <img class="mui-media-object mui-pull-left" src="./2/sinalogo.png">
+            <p style="font-size: large;">新浪视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
@@ -116,17 +133,20 @@ margin-top: 50px;
     <!---------->
     <li class="mui-table-view-cell mui-media">
         <a href="http://v.163.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/163logo.png">          
+            <img class="mui-media-object mui-pull-left" src="./2/163logo.png">    
+            <p style="font-size: large;">网易视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="https://www.6.cn/">
-            <img class="mui-media-object mui-pull-left" src="./2/6logo.png">         
+            <img class="mui-media-object mui-pull-left" src="./2/6logo.png">  
+            <p style="font-size: large;">6房间视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.kugou.com/mvweb/html/">
             <img class="mui-media-object mui-pull-left" src="./2/kugoulogo.png">
+            <p style="font-size: large;">酷狗MV视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
@@ -134,46 +154,54 @@ margin-top: 50px;
     <!---------->
     <li class="mui-table-view-cell mui-media">
         <a href="https://www.baomihua.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/baomihualogo.png">          
+            <img class="mui-media-object mui-pull-left" src="./2/baomihualogo.png"> 
+            <p style="font-size: large;">爆米花视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="https://v.ifeng.com/film/">
-            <img class="mui-media-object mui-pull-left" src="./2/ifenglogo.png">         
+            <img class="mui-media-object mui-pull-left" src="./2/ifenglogo.png">  
+            <p style="font-size: large;">凤凰视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://live.kankanews.com/">
             <img class="mui-media-object mui-pull-left" src="./2/kankannewslogo.png">
+            <p style="font-size: large;">看看新闻网视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
     <!---------->
     <li class="mui-table-view-cell mui-media">
         <a href="http://video.mtime.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/mtimelogo.png">          
+            <img class="mui-media-object mui-pull-left" src="./2/mtimelogo.png"> 
+            <p style="font-size: large;">时光网视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.kuwo.cn/mv/">
-            <img class="mui-media-object mui-pull-left" src="./2/kuwologo.png">         
+            <img class="mui-media-object mui-pull-left" src="./2/kuwologo.png"> 
+            <p style="font-size: large;">酷我音乐MV视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.1905.com/">
             <img class="mui-media-object mui-pull-left" src="./2/1905logo.png">
+            <p style="font-size: large;">1905电影网视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
     
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.tangdou.com/">
-            <img class="mui-media-object mui-pull-left" src="./2/tangdoulogo.png">         
+            <img class="mui-media-object mui-pull-left" src="./2/tangdoulogo.png">
+            <p style="font-size: large;">糖豆视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.cctv.com/">
             <img class="mui-media-object mui-pull-left" src="./2/cntvlogo.png">
+            <p style="font-size: large;">央视网视频<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
@@ -183,64 +211,84 @@ margin-top: 50px;
 </div>
 </div>
 
-<div id="item2mobile" class="mui-slider-item mui-control-content" style="background-image:url(2/16pic_5542988_b.jpg)">
+<div id="item2mobile" class="mui-slider-item mui-control-content" style="background-image:url(2/timg.jpg)">
 <div id="scroll2" class="mui-scroll-wrapper">
 <div class="mui-scroll">
-<ul class="mui-table-view" style="background-color:rgba(0,50,255,0.4);">
+<ul class="mui-table-view" style="background-color:rgba(0,0,100,0.3);">
 	<li class="mui-table-view-cell mui-media">
         <a href="https://www.douyu.com/">
-            <img class="mui-media-object mui-pull-left" src="2/u=3934279859,74601713&fm=26&gp=0.jpg">         
+            <img class="mui-media-object mui-pull-left" src="2/u=3934279859,74601713&fm=26&gp=0.jpg">
+            <p style="font-size: large;">斗鱼直播<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://www.huya.com/">
             <img class="mui-media-object mui-pull-left" src="2/huya.jpg">
+            <p style="font-size: large;">虎牙直播<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
     <li class="mui-table-view-cell mui-media">
         <a href="https://chushou.tv/">
-            <img class="mui-media-object mui-pull-left" src="2/chushou.jpg">         
+            <img class="mui-media-object mui-pull-left" src="2/chushou.jpg">  
+            <p style="font-size: large;">触手TV<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="https://egame.qq.com/">
             <img class="mui-media-object mui-pull-left" src="2/qie.jpg">
+            <p style="font-size: large;">企鹅电竞<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
-	
+    <br />
+    <br />
+    <div style="background-color:rgba(0,0,100,0.3); width: 1400px; height: 1150px;">
+    	<div id="box">
+    	<img src="yulebotm/游戏/1.jpg"> 
+    	<img src="yulebotm/游戏/2.jpg">
+    	<img src="yulebotm/游戏/3.jpg"> 
+    	<img src="yulebotm/游戏/4.jpg">
+    	<img src="yulebotm/5.jpg"> 
+    	<img src="yulebotm/6.jpg">
+    	<img src="yulebotm/7.jpg"> 
+    	<img src="yulebotm/8.jpg"> 
+    	<img src="yulebotm/9.jpg"> 
+    	<img src="yulebotm/10.jpg">
+    	</div>
+    </div>
 </ul>
 <span id="site_runtime" style="color:black; font-size: xx-small;"></span> 
-
 </div>
 </div>
-
-
 </div>
 <div id="item3mobile" class="mui-slider-item mui-control-content"style="background-image: url(../related/timg.jpg);">
 <div id="scroll3" class="mui-scroll-wrapper">
 <div class="mui-scroll">
 
-<ul class="mui-table-view" style="background-color:rgba(0,50,255,0.4);">
+<ul class="mui-table-view" style="background-color:rgba(0,0,100,0.3);">
 <li class="mui-table-view-cell mui-media">
         <a href="https://www.taobao.com/">
-            <img class="mui-media-object mui-pull-left" src="2/taobao.jpg">         
+            <img class="mui-media-object mui-pull-left" src="2/taobao.jpg"> 
+            <p style="font-size: large;">淘宝商城<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="https://www.jd.com/">
             <img class="mui-media-object mui-pull-left" src="2/jingdong.jpg">
+            <p style="font-size: large;">京东商城<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
     <li class="mui-table-view-cell mui-media">
         <a href="https://www.pinduoduo.com/">
-            <img class="mui-media-object mui-pull-left" src="2/pinduoduo.jpg">         
+            <img class="mui-media-object mui-pull-left" src="2/pinduoduo.jpg">
+            <p style="font-size: large;">拼多多<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="https://www.mi.com/">
             <img class="mui-media-object mui-pull-left" src="2/xiaomi.jpg">
+            <p style="font-size: large;">小米商城<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     
@@ -248,47 +296,89 @@ margin-top: 50px;
     
     <li class="mui-table-view-cell mui-media">
         <a href="https://www.suning.com/">
-            <img class="mui-media-object mui-pull-left" src="2/suningyigou.jpg">         
+            <img class="mui-media-object mui-pull-left" src="2/suningyigou.jpg">  
+            <p style="font-size: large;">苏宁易购<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
     <li class="mui-table-view-cell mui-media">
         <a href="http://book.dangdang.com/">
             <img class="mui-media-object mui-pull-left" src="2/dangdang.jpg">
+            <p style="font-size: large;">当当书城<p align="right" style="font-size: x-large;">></p></p>
         </a>
     </li>
 
 </ul>
 <span id="site_runtime" style="color:black; font-size: xx-small;"></span> 
-
+</div>
+</div>
+</div>
+<div id="item4mobile" class="mui-slider-item mui-control-content" style="background-image:url(2/music.jpg)">
+<div id="scroll2" class="mui-scroll-wrapper">
+<div class="mui-scroll">
+<ul class="mui-table-view" style="background-color:rgba(0,0,100,0.3);">
+	<li class="mui-table-view-cell mui-media">
+        <a href="https://music.163.com/">
+            <img class="mui-media-object mui-pull-left" src="2/wangyiyun.jpg">  
+            <p style="font-size: large;">网易云音乐<p align="right" style="font-size: x-large;">></p></p>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="http://www.kugou.com/">
+            <img class="mui-media-object mui-pull-left" src="2/kugou.jpg">
+        	<p style="font-size: large;">酷狗音乐<p align="right" style="font-size: x-large;">></p></p>
+        </a>
+    </li>
+    
+    <li class="mui-table-view-cell mui-media">
+        <a href="https://y.qq.com/">
+            <img class="mui-media-object mui-pull-left" src="2/QQyinyue.png"> 
+            <p style="font-size: large;">QQ音乐<p align="right" style="font-size: x-large;">></p></p>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="http://www.kuwo.cn/">
+            <img class="mui-media-object mui-pull-left" src="2/kuwo.jpg">
+            <p style="font-size: large;">酷我音乐<p align="right" style="font-size: x-large;">></p></p>
+        </a>
+    </li>
+    
+    <li class="mui-table-view-cell mui-media">
+        <a href="http://music.taihe.com/">
+            <img class="mui-media-object mui-pull-left" src="2/baidu.jpg">
+            <p style="font-size: large;">百度音乐<p align="right" style="font-size: x-large;">></p></p>
+        </a>
+    </li>
+    
+    <li class="mui-table-view-cell mui-media">
+        <a href="https://www.xiami.com/">
+            <img class="mui-media-object mui-pull-left" src="2/xiami.jpg">
+            <p style="font-size: large;">虾米音乐<p align="right" style="font-size: x-large;">></p></p>
+            
+        </a>
+    </li>
+    <div style="background-color:rgba(0,0,100,0.3); width: 1600px; height: 1150px;">
+    	<div id="box">
+    	<img src="yulebotm/游戏/1.jpg"> 
+    	<img src="yulebotm/游戏/2.jpg">
+    	<img src="yulebotm/游戏/3.jpg">
+    	<img src="yulebotm/游戏/4.jpg">
+    	<img src="yulebotm/游戏/5.jpg">
+    	<img src="yulebotm/游戏/6.jpg">
+    	<img src="yulebotm/游戏/7.jpg">
+    	<img src="yulebotm/游戏/8.jpg">
+    	<img src="yulebotm/游戏/9.jpg">
+    	<img src="yulebotm/游戏/10.jpg">
+    	</div>
+    </div>
+    
+    
+</ul>
+<span id="site_runtime" style="color:black; font-size: xx-small;"></span> 
 </div>
 </div>
 </div>
 </div>
-
 </div>
-
-<!--为选项卡选择样式
-<h5 class="mui-content-padded">Color</h5>
-<div class="mui-card">
-<form class="mui-input-group">
-<div class="mui-input-row mui-radio">
-<label><span class="mui-bg-primary" style="display:block;width:25px;height:25px;"></span>
-</label>
-<input name="radio1" type="radio" checked value="primary">
-</div>
-<div class="mui-input-row mui-radio">
-<label><span class="mui-bg-positive" style="display:block;width:25px;height:25px;"></span>
-</label>
-<input name="radio1" type="radio" value="positive">
-</div>
-<div class="mui-input-row mui-radio">
-<label><span class="mui-bg-negative" style="display:block;width:25px;height:25px;"></span>
-</label>
-<input name="radio1" type="radio" value="negative">
-</div>
-</form>
-</div>
--->
 </div>
 <script src="../js/mui.min.js"></script>
 <script>
@@ -302,10 +392,37 @@ indicators: true //是否显示滚动条
 });
 
 <!--根据选择获取各个面板-->
-var html2 = '<ul class="mui-table-view"><li class="mui-table-view-cell">第二个选项卡子项-1</li><li class="mui-table-view-cell">第二个选项卡子项-2</li><li class="mui-table-view-cell">第二个选项卡子项-3</li><li class="mui-table-view-cell">第二个选项卡子项-4</li><li class="mui-table-view-cell">第二个选项卡子项-5</li></ul>';
-var html3 = '<ul class="mui-table-view"><li class="mui-table-view-cell">第三个选项卡子项-1</li><li class="mui-table-view-cell">第三个选项卡子项-2</li><li class="mui-table-view-cell">第三个选项卡子项-3</li><li class="mui-table-view-cell">第三个选项卡子项-4</li><li class="mui-table-view-cell">第三个选项卡子项-5</li></ul>';
+var html2 = '
+<ul class="mui-table-view">
+<li class="mui-table-view-cell">第二个选项卡子项-1</li>
+<li class="mui-table-view-cell">第二个选项卡子项-2</li>
+<li class="mui-table-view-cell">第二个选项卡子项-3</li>
+<li class="mui-table-view-cell">第二个选项卡子项-4</li>
+<li class="mui-table-view-cell">第二个选项卡子项-5</li>
+</ul>';
+
+var html3 = '
+<ul class="mui-table-view">
+<li class="mui-table-view-cell">第三个选项卡子项-1</li>
+<li class="mui-table-view-cell">第三个选项卡子项-2</li>
+<li class="mui-table-view-cell">第三个选项卡子项-3</li>
+<li class="mui-table-view-cell">第三个选项卡子项-4</li>
+<li class="mui-table-view-cell">第三个选项卡子项-5</li>
+</ul>';
+
+var html4 = '
+<ul class="mui-table-view">
+<li class="mui-table-view-cell">第四个选项卡子项-1</li>
+<li class="mui-table-view-cell">第四个选项卡子项-2</li>
+<li class="mui-table-view-cell">第四个选项卡子项-3</li>
+<li class="mui-table-view-cell">第四个选项卡子项-4</li>
+<li class="mui-table-view-cell">第四个选项卡子项-5</li>
+</ul>';
+
+
 var item2 = document.getElementById('item2mobile');
 var item3 = document.getElementById('item3mobile');
+var item4 = document.getElementById('item4mobile');
 document.getElementById('slider').addEventListener('slide', function(e) {
 if (e.detail.slideNumber === 1) {
 if (item2.querySelector('.mui-loading')) {
@@ -313,10 +430,21 @@ setTimeout(function() {
 item2.querySelector('.mui-scroll').innerHTML = html2;
 }, 500);
 }
-} else if (e.detail.slideNumber === 2) {
+} 
+
+
+else if (e.detail.slideNumber === 2) {
 if (item3.querySelector('.mui-loading')) {
 setTimeout(function() {
 item3.querySelector('.mui-scroll').innerHTML = html3;
+}, 500);
+}
+}
+
+else if (e.detail.slideNumber === 3) {
+if (item4.querySelector('.mui-loading')) {
+setTimeout(function() {
+item4.querySelector('.mui-scroll').innerHTML = html4;
 }, 500);
 }
 }
@@ -327,7 +455,8 @@ item3.querySelector('.mui-scroll').innerHTML = html3;
 var sliderSegmentedControl = document.getElementById('sliderSegmentedControl');
 $('.mui-input-group').on('change', 'input', function() {
 if (this.checked) {
-sliderSegmentedControl.className = 'mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-' + this.value;
+sliderSegmentedControl.className = 'mui-slider-indicator mui-segmented-control
+mui-segmented-control-inverted mui-segmented-control-' + this.value;
 //force repaint
 sliderProgressBar.setAttribute('style', sliderProgressBar.getAttribute('style'));
 }
