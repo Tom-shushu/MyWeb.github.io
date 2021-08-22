@@ -32,10 +32,10 @@
 </head>
 
 <body>
-	<bgsound src="music/天空之城.mp3"></bgsound>
+	<bgsound src="music/shanghaitan.mp3"></bgsound>
     <!-- Header -->
     <div class="nav">
-    <a class="logo" href="index.html"><img src="style/images/logo.png" width="40" title="红"></a>
+    <a class="logo" href="index.html"><img src="style/images/logo.jpg" width="35" title="TopFish"></a>
  	<span id="site_runtime" style="color:white; font-size: xx-small;"></span> 
  	<a class="logo pull-right sobtn"><span class="glyphicon glyphicon-search" style="color: #B4B4B4;"></span></a>
     </div>
@@ -46,30 +46,28 @@
             <li class="selected">
                 <div class="cd-half-width">
                 	
-            	    <a href="https://tom-shushu.github.io/MyWebsite.github.io/"><h4>电脑端请点击这里</h4></a>
-                    <h2>周红</h2>
-                    <p>爱音乐、爱折腾、爱生活</p>
-                    <p>Java开发攻城狮</p>
+                    <h2>叨陪鲤</h2>
+                    <p>不爱充会员</p>
+                    <p>喜欢听音乐,旅行,喜欢编程,不甘于现状,爱折腾</p>
+                    <p>正在转Go的C开发工程师</p>
                     <a class="cd-btn" href="about.html">关于站主</a>
                 </div>
                 <div class="cd-half-width cd-img-container">
-                    <img src="style/images/tech-1.png" alt="周红" title="周红" />
+                    <img src="style/images/003.png" width="60%" alt="叨陪鲤" title="叨陪鲤" />
                 </div>
             </li>
             <li>
                 <div class="cd-full-width">
-                	<a href="https://www.cnblogs.com/Tom-shushu/"><h4>电脑端请点击这里</h4></a>
                     <h2>观点与分享</h2>
                     <p>记录生活点滴，分享人生喜乐！</p>
-                    <a class="cd-btn" href="https://www.cnblogs.com/Tom-shushu/" target="_blank">站主的博客园</a>
+                    <a class="cd-btn" href="https://blog.csdn.net/s2603898260" target="_blank">站主的CSDN</a>
                 </div>
             </li>
             <li>
                 <div class="cd-full-width">
-                	<a href="vip/yule.html"><h4>电脑端请点击这里</h4></a>
                     <h2>影视，直播，购物</h2>
                     <p>观看生活影片，感受欢天喜地！</p>
-                    <a class="cd-btn" href="vip/yule.html" target="_blank">娱乐</a>
+                    <a class="cd-btn" href="" target="_blank">娱乐</a>
                 </div>
             </li>
             <li class="cd-bg-video">
@@ -84,7 +82,6 @@
             </li>
             <li>
                 <div class="cd-full-width">
-                	<a href="tracks.html"><h4>电脑端请点击这里</h4></a>
                     <h2>说走就走</h2>
                     <p>生活不止眼前的苟且，还有诗和远方的田野！拿起相机和你喜欢的人一起来一场说走就走的旅行也是不错的！！</p>
                     <a class="cd-btn" href="tracks.html">我的相册</a>
@@ -151,7 +148,7 @@
 <script type="text/javascript">
     function show_site_runtime(){
 	window.setTimeout("show_site_runtime()",1000); // 每秒运行一次函数
-	X=new Date("04/10/2019 00:00:00"); //在这里修改你的建站时间
+	X=new Date("08/22/2021 00:00:00"); //在这里修改你的建站时间
 	Y=new Date();
 	T=(Y.getTime()-X.getTime()); // 获取当前时间与指定时间之间的时间间隔（ms）	
 	i=24*60*60*1000;
@@ -163,7 +160,7 @@
 	M=Math.floor(m); // 计算剩余不足一小时的分钟数并向下取整
 	s=(m-M)*60;
 	S=Math.floor(s); // 计算剩余不足一分钟的秒数并向下取整
-	site_runtime.innerHTML="现在是："+ Y+ "<br>" +"网站已平稳运行："+D + " 天 " + H + " 小时 " + M + " 分 " + S + " 秒 ";
+	site_runtime.innerHTML="当前时间:"+ Y+ "<br>" +"网站已平稳运行："+D + " 天 " + H + " 小时 " + M + " 分 " + S + " 秒 ";
     }
 	show_site_runtime();
 </script>
